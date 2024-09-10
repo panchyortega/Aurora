@@ -1,0 +1,18 @@
+<structure>
+  <!-- Barra de navegación -->
+  <Navbar position="top" />
+
+  <!-- Contenido principal -->
+  <MainContent>
+    <!-- Barra lateral -->
+    <Sidebar position="left">
+      <TOC />  <!-- Tabla de contenidos -->
+    </Sidebar>
+    <!-- Contenido -->
+    <Content />
+  </MainContent>
+
+  <!-- Pie de página -->
+  <Footer />
+</structure>
+a
