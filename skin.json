@@ -1,0 +1,28 @@
+{
+    "name": "Aurora",
+    "description": "Una skin personalizada para la wiki Casiopea",
+    "author": "Francisca",
+    "version": "1.0.0",
+    "license": "GPL-2.0-or-later",
+    "requires": {
+      "MediaWiki": ">= 1.31.0"
+    },
+    "Skin": {
+      "class": "SkinAurora",
+      "templates": {
+        "index": "AuroraTemplate"
+      }
+    },
+    "ResourceModule": {
+      "styles": {
+        "skins.aurora.styles": {
+          "scripts": [],
+          "styles": [
+            "css/main.css"
+          ],
+          "position": "top"
+        }
+      }
+    }
+  }
+  
